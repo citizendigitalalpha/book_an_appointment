@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+    <div class="breadcrumbs">
+        <ol>
+            <li><a href="/">Service Green</a></li>
+            <li><a href="/">Book An Appointment</a></li>
+            <li><a href="/">Customer Details</a></li>
+        </ol>
+    </div>
+
+    <div class="grid-row">
+        <div class="column-two-thirds">
+            <h1 class="heading-xlarge">
+                <span class="heading-secondary">Book An Appointment</span>
+                Customer Details
+            </h1>
+            <p>Form introduction goes here, text describing what this section of the form will capture, what for etc</p>
+
+            <form>
+                <label class="form-label" for="customer-name-f1">Customer name</label>
+                <input class="form-control" id="customer-name-f1" type="text" name="customer-name-f1">
+
+                <label class="form-label" for="customer-name-f1">Customer name</label>
+                <input class="form-control" id="customer-name-f1" type="text" name="customer-name-f1">
+            </form>
+        </div>
+        <div class="column-third">
+
+          
+        </div>
+    </div>
+
+</main>
+{% endblock %}
+
+

@@ -1,0 +1,20 @@
+@import '../../../node_modules/govuk_frontend_toolkit/stylesheets/_colours.scss';
+@import '../../../node_modules/govuk_frontend_toolkit/stylesheets/_conditionals.scss';
+@import '../../../node_modules/govuk_frontend_toolkit/stylesheets/_css3.scss';
+@import '../../../node_modules/govuk_frontend_toolkit/stylesheets/_typography.scss';
+@import '../../../node_modules/govuk_frontend_toolkit/stylesheets/_grid_layout.scss';
+@import '../../../node_modules/govuk_frontend_toolkit/stylesheets/_url-helpers.scss';
+$path: '../images/';
+
+/* --- Global Site Styling --- */
+
+.breadcrumbs {
+    ol {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+#global-header-bar {
+    background: $turquoise;
+}
