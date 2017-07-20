@@ -18,7 +18,8 @@ gulp.task('generate-assets', function (done) {
   runSequence('clean',
                 'copy-govuk-modules',
                 'sass',
-                'copy-assets',
+      'copy-assets',
+      'copy-js',
                 done)
 })
 
@@ -27,6 +28,7 @@ gulp.task('copy-govuk-modules', [
   'copy-template-assets',
   'copy-elements-sass',
   'copy-template'
+
 ])
 
 gulp.task('watch', function (done) {

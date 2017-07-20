@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main" class="bookanappt-form">
+
+    <div class="breadcrumbs">
+        <ol>
+            <li><a href="/">Service Green</a></li>
+            <li><a href="/">Book An Appointment</a></li>
+            <li><a href="#">Customer Contact</a></li>
+        </ol>
+    </div>
+
+
+            <h1 class="heading-xlarge">
+                <span class="heading-secondary">Book An Appointment</span>
+                Customer Contact
+            </h1>
+            <p>Please fill out the contact details for the customer below</p>
+
+            <form>
+                <div class="form-group">
+                    <fieldset>
+                        <label class="form-label-bold" for="customer-telephone">Customer telephone number</label>
+                        <input class="form-control" id="customer-telephone" type="number" name="customer-telephone">
+                    </fieldset>
+                </div>
+                <div class="form-group">
+                    <fieldset>
+                        <label class="form-label-bold" for="customer-email">Customer email address</label>
+                        <input class="form-control" id="customer-email" type="text" name="customer-email">
+                    </fieldset>
+                </div>
+
+                <div class="form-group">
+                    <a class="button" href="bookform4.html" role="button">Save and continue</a>
+                </div>
+                <a class="link-back" href="bookform2.html">Back</a>
+            </form>
+
+
+</main>
+{% endblock %}
+
+

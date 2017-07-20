@@ -18,3 +18,39 @@ $path: '../images/';
 #global-header-bar {
     background: $turquoise;
 }
+
+.bookanappt-form {
+    h1.heading-xlarge {
+        margin-bottom: 0.5em;
+    }
+
+    .form-label {
+        margin-top: 0.4em;
+    }
+}
+
+.appointment-box {
+    border: 10px solid #bfc1c3;
+    margin: 1em 0;
+    padding: 1em;
+
+    &:hover {
+        border-color: $yellow;
+    }
+
+    h3 {
+        margin-top: 1em;
+    }
+}
+
+.availableappointments {
+    .font-medium {
+        margin-bottom: 0px;
+    }
+}
+
+.appointmentbutton {
+    text-decoration: underline;
+    color: $govuk-blue;
+    cursor: pointer;
+}

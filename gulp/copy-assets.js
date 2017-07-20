@@ -19,3 +19,8 @@ gulp.task('copy-documentation-assets', function () {
   .pipe(gulp.dest(config.paths.public))
 })
 
+gulp.task('copy-js', function () {
+    return gulp.src(['app/assets/js/**'])
+        .pipe(gulp.dest(config.paths.public))
+})
+

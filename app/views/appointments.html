@@ -1,0 +1,84 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main" class="availableappointments">
+
+    <div class="breadcrumbs">
+        <ol>
+            <li><a href="/">Service Green</a></li>
+            <li><a href="home.html">Book An Appointment</a></li>
+        </ol>
+    </div>
+
+    <div class="grid-row">
+        <div class="column-two-thirds">
+            <h1 class="heading-xlarge">
+                <span class="heading-secondary">Book An Appointment</span>
+                Available Appointments
+            </h1>
+            <p>Below you'll find a list of available appointments based on your selected location and date</p>
+
+            <p class="font-medium"><span class="heading-medium">Current Location: </span>Coventry</p>
+            <p>or <a href="#">choose a different location</a>.</p>
+            <div class="appointment-first">
+                <h2 class="heading-large">First available appointment</h2>
+                <p>This is the first available appointment in your area. There are other advisers in your area and appointments using the free online video service are also available.</p>
+
+                <div class="appointment-box">
+                    <h3 class="heading-medium appointment">Tuesday, 8th February at 14:00</h3>
+                    <p><a class="button" href="./book-this.html" role="button">Book this appointment</a></p>
+                    <p>or <span class="appointmentbutton">choose a different appointment</span>.</p>
+                </div>
+            </div>
+            <div class="appointment-times hidden">
+                <h2 class="heading-large">Select from the list below</h2>
+                <table role="presentation">
+                    <thead>
+                        <tr>
+                            <th colspan="2">Date and time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Wednesday 16th February at 14:00</td>
+                            <td><a href="./book-this.html" class="button" role="button">Book this appointment</a></td>
+                        </tr>
+                        <tr>
+                            <td>Thursday 16th February at 17:00</td>
+                            <td><a href="./book-this.html" class="button" role="button">Book this appointment</a></td>
+                        </tr>
+                        <tr>
+                            <td>Friday 17th February at 10:00</td>
+                            <td><a href="./book-this.html" class="button" role="button">Book this appointment</a></td>
+                        </tr>
+                        <tr>
+                            <td>Monday 21st February at 14:00</td>
+                            <td><a href="./book-this.html" class="button" role="button">Book this appointment</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        <div class="column-third">
+            <!--<aside class="govuk-related-items" role="complementary">
+                <h2 class="heading-medium">
+                    Want to talk?
+                </h2>
+                <p class="font-small" style="margin-bottom: 0px;">
+                    <span class="bold-small">Telephone:</span>
+                    0800 100 900
+                </p>
+                <p class="grey font-xsmall">Mon-Fri 9:00AM to 5:00PM</p>
+            </aside>-->
+          
+        </div>
+    </div>
+
+</main>
+{% endblock %}
+
+
