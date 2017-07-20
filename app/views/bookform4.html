@@ -15,36 +15,62 @@
             <li><a href="#">Customer Further Details</a></li>
         </ol>
     </div>
-    <h1 class="heading-xlarge">
-        <span class="heading-secondary">Book An Appointment</span>
-        Customer Further Details
-    </h1>
-    <p>Please list any special conditions relating to the customer below</p>
-    <form>
-        <div class="form-group">
-            <fieldset>
-                <label class="form-label-bold" for="customer-conditions">Customer special conditions
-                <span class="form-hint">Disabilities, health conditions, language barriers</span>
-                </label>
-                <textarea class="form-control" id="customer-conditions" rows="5"></textarea>
-            </fieldset>
-            </div>
-            <div class="form-group">
-                        
-                <fieldset>
-                    <label class="form-label-bold" for="customer-benefit">
-                        Customer benefit type
-                        <span class="form-hint">JSA, ESA, Income Support, Universal Credit</span>
-                    </label>
-                    <input class="form-control" id="customer-benefit" type="text" name="customer-benefit">
-                </fieldset>
-            </div>
 
-        <div class="form-group">
-            <a class="button" href="bookform5.html" role="button">Save and continue</a>
+    <div class="grid-row">
+        <div class="column-two-thirds">
+            <h1 class="heading-xlarge">
+                <span class="heading-secondary">Book An Appointment</span>
+                Customer Further Details
+            </h1>
+            <p>Please list any special conditions relating to the customer below</p>
+            <form>
+                <div class="form-group">
+                    <fieldset>
+                        <label class="form-label-bold" for="customer-conditions">
+                            Customer special conditions
+                            <span class="form-hint">Disabilities, health conditions, language barriers</span>
+                        </label>
+                        <textarea class="form-control" id="customer-conditions" rows="5"></textarea>
+                    </fieldset>
+                </div>
+                <div class="form-group">
+
+                    <fieldset>
+                        <label class="form-label-bold" for="customer-benefit">
+                            Customer benefit type
+                            <span class="form-hint">JSA, ESA, Income Support, Universal Credit</span>
+                        </label>
+                        <input class="form-control" id="customer-benefit" type="text" name="customer-benefit">
+                    </fieldset>
+                </div>
+
+                <div class="form-group">
+                    <a class="button" href="bookform5.html" role="button">Save and continue</a>
+                </div>
+                <a class="link-back" href="bookform3.html">Back</a>
+            </form>
         </div>
-        <a class="link-back" href="bookform3.html">Back</a>
-    </form>
+
+        <div class="column-third">
+            <aside class="govuk-border-top" role="complementary">
+                <h2 class="heading-medium">
+                    Your Appointment
+                </h2>
+                <p class="font-xsmall">
+                    <span class="bold-small">When:</span><br />
+                    Tuesday, 8th February at 14:00
+                </p>
+                <p class="font-xsmall">
+                    <span class="bold-small">Where:</span><br />
+                    Job Center Plus Coventry <br />
+                    Cofa Court,<br />Coventry,<br />CV1 2HJ
+                </p>
+                </p>
+            </aside>
+
+        </div>
+
+    </div>
 </main>
 {% endblock %}
 

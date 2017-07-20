@@ -38,8 +38,17 @@ $path: '../images/';
         border-color: $yellow;
     }
 
-    h3 {
+    .appointment {
         margin-top: 1em;
+        margin-bottom: 0.5em;
+    }
+
+    .location {
+        margin-top: 0em;
+    }
+
+    &.booked {
+        border-color: $yellow;
     }
 }
 
@@ -53,4 +62,18 @@ $path: '../images/';
     text-decoration: underline;
     color: $govuk-blue;
     cursor: pointer;
+}
+
+.govuk-border-top {
+    margin-top: 30px;
+    border-top: 10px solid $turquoise;
+    padding-top: 5px;
+
+    .heading-medium {
+        margin: 0.5em 0 0.5em 0;
+    }
+
+    p {
+        margin: 0.5em 0;
+    }
 }
