@@ -50,6 +50,14 @@ $path: '../images/';
     &.booked {
         border-color: $yellow;
     }
+
+    .appointment-box-address {
+        margin: 0 0 1em 0;
+    }
+
+    .heading-medium {
+        margin: 0.5em 0 0 0;
+    }
 }
 
 .availableappointments {
@@ -58,7 +66,7 @@ $path: '../images/';
     }
 }
 
-.appointmentbutton {
+.appointmentbutton, .locationbutton {
     text-decoration: underline;
     color: $govuk-blue;
     cursor: pointer;
