@@ -5,7 +5,9 @@
 {% endblock %}
 
 {% block content %}
-
+<div class="content-container">
+    {% include "includes/phase_banner_alpha.html" %}
+</div>
 <main id="content" role="main" class="availableappointments">
 
     <div class="breadcrumbs">
@@ -31,18 +33,13 @@
                     <div class="form-group">
                         <fieldset>
                             <label class="form-label-bold" for="customer-location">Choose a location</label>
-                            <span class="form-hint">Enter a twon, city or postcode</span>
+                            <span class="form-hint">Enter a town, city or postcode</span>
                             <input class="form-control" id="customer-location" type="text" name="customer-location">
                             <a href="#" class="locationsubmit button">Submit</a>
                         </fieldset>
                     </div>
                 </form>
             </div>
-
-
-
-
-
 
             <div class="appointment-first">
                 <h2 class="heading-large">First available appointment</h2>
