@@ -3,11 +3,12 @@
     "",
     "\\app",
     "\\app\\assets",
+    "\\app\\assets\\js",
     "\\app\\assets\\sass",
     "\\app\\assets\\sass\\patterns",
     "\\app\\views",
+    "\\app\\views\\includes",
     "\\gulp"
   ],
-  "SelectedNode": "\\app\\views\\bookform1.html",
   "PreviewInSolutionExplorer": false
 }

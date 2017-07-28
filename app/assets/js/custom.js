@@ -16,4 +16,15 @@ $(function () {
         $(".locationchoose").removeClass("hidden");
         $(".location-box").addClass("hidden");
     });
+
+    $("#benefit-type-5").change(function () {
+        if (this.checked) {
+            $(".benefit-type-other").removeClass("hidden");
+        }
+        else {
+            $(".benefit-type-other").addClass("hidden");
+        }
+    });
 });
+
+

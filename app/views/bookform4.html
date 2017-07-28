@@ -36,13 +36,43 @@
                     </fieldset>
                 </div>
                 <div class="form-group">
-
                     <fieldset>
-                        <label class="form-label-bold" for="customer-benefit">
-                            Customer benefit type
-                            <span class="form-hint">JSA, ESA, Income Support, Universal Credit</span>
-                        </label>
-                        <input class="form-control" id="customer-benefit" type="text" name="customer-benefit">
+
+                        <legend>
+                            <h3 class="form-label-bold">Customer benefit type?</h3>
+                            <span class="body-text">Select all that apply</span>
+                        </legend>
+
+                        <div class="multiple-choice">
+                            <input id="benefit-type-1" name="benefit-types" type="checkbox" value="benefit-jsa">
+                            <label for="benefit-type-1">JSA</label>
+                        </div>
+                        <div class="multiple-choice">
+                            <input id="wasbenefitte-type-2" name="benefit-types" type="checkbox" value="benefit-esa">
+                            <label for="benefit-type-2">ESA</label>
+                        </div>
+                        <div class="multiple-choice">
+                            <input id="benefit-type-3" name="benefit-types" type="checkbox" value="benefit-income">
+                            <label for="benefit-type-3">Income support</label>
+                        </div>
+                        <div class="multiple-choice">
+                            <input id="benefit-type-4" name="benefit-types" type="checkbox" value="benefit-uc">
+                            <label for="benefit-type-4">Universal credit</label>
+                        </div>
+                        <div class="multiple-choice">
+                            <input id="benefit-type-5" name="benefit-types" type="checkbox" value="benefit-other">
+                            <label for="benefit-type-5">Other</label>
+                        </div>
+                        <div class="benefit-type-other hidden">
+                            <label class="form-label-bold" for="customer-benefit">
+                                Other benefit type
+                            </label>
+                            <input class="form-control" id="customer-benefit" type="text" name="customer-benefit">
+                        </div>
+                       
+                    </fieldset>
+                    <fieldset>
+
                     </fieldset>
                 </div>
 
